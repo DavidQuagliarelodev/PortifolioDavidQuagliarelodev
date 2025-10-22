@@ -281,6 +281,14 @@ h6 {
   display: block;
 }
 
+#profile-img{
+  max-width: 80%;
+  border-radius: 100%;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
@@ -416,8 +424,13 @@ h6 {
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
+
+  #profile-img{
+    margin-bottom: 2rem;
+}
   [data-aos-delay] {
     transition-delay: 0 !important;
+  
   }
 }
 
